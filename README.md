@@ -146,6 +146,10 @@ The product direction is an accessible creative loop in which recordings, rhythm
 
 The work connects source footage, visual references and language with generated environments while trying to preserve continuity between people, places, objects, atmosphere and creator intent.
 
+<img src="assets/zebracorn_plaguecity.webp" width="480" alt="Zebracorn — Plague City, generated with Alienway">
+
+<sub>Zebracorn — Plague City, a short generated with Alienway. <a href="assets/zebracorn_plaguecity.mp4">Full clip with audio</a>.</sub>
+
 ### Lottery research
 
 [lotteries-init-at-your-service](https://github.com/kugguk2022/lotteries-init-at-your-service) explores lottery systems as a statistical and distributed-systems problem: candidate generation, historical structure, crowd coordination and comparative evaluation.
