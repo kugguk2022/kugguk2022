@@ -1,3 +1,5 @@
+<a href="https://kugguk.com"><img src="https://kugguk.com/assets/images/zebracorn.png" align="right" width="140" alt="KUggUK Zebracorn"></a>
+
 # Zolton Farkas · kugguk2022
 
 **Independent researcher & builder**  
