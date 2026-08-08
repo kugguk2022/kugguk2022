@@ -14,45 +14,9 @@ Algorithms · dynamical systems · deterministic languages · applied forecastin
 
 ---
 
-## Public portfolio map
-
-This profile spans several GitHub namespaces and public product surfaces. The table below is a **public relationship and evidence map**: it shows where a project lives, how it relates to this portfolio, and what an external reviewer can actually inspect. It is not intended as a substitute for legal ownership records.
-
-| Namespace / surface | Project | Relationship here | Public evidence you can inspect |
-| --- | --- | --- | --- |
-| **[kugguk2022](https://github.com/kugguk2022)** | [kugguk2022](https://github.com/kugguk2022/kugguk2022) | Profile / portfolio index | This README and linked public work |
-| **[EncapsulatorP](https://github.com/EncapsulatorP)** | [recaman](https://github.com/EncapsulatorP/recaman) | Research program | Forward validation, matched controls, leakage-reduced experiments, saved outputs, 3D visualizations |
-| **[EncapsulatorP](https://github.com/EncapsulatorP)** | [collatz_lift](https://github.com/EncapsulatorP/collatz_lift) | Research program | Numerical results, CSV data, reports, figures, rerunnable scripts |
-| **[EncapsulatorP](https://github.com/EncapsulatorP)** | [collatz_kesten-goldie](https://github.com/EncapsulatorP/collatz_kesten-goldie) | Research program | Theory/empirical cross-checks, plots, CSV/TXT results, reproduction command |
-| **[EncapsulatorP](https://github.com/EncapsulatorP)** | [goldbach_busy_collatz](https://github.com/EncapsulatorP/goldbach_busy_collatz) | Research program | Exact-count pipeline, tests, CI workflow, RESULTS.md, data dictionary, generated artifacts |
-| **[kugguk2022](https://github.com/kugguk2022)** | [Zyntalic_idiom](https://github.com/kugguk2022/Zyntalic_idiom) | Public generative-system implementation | Deterministic engine, CLI, JSONL, API/launcher paths, tests |
-| **[kugguk2022](https://github.com/kugguk2022)** | [lotteries-init-at-your-service](https://github.com/kugguk2022/lotteries-init-at-your-service) | Forecasting research | Forward-only evaluation, holdouts, benchmarks, tests, saved artifacts |
-| **[Pushasaco](https://github.com/Pushasaco)** / [sha.chat](https://sha.chat) | sha.chat | Product direction | Public product site; implementation evidence is selectively public/private |
-| **[GenZfy](https://github.com/GenZfy)** / [algobeat.ai](https://algobeat.ai) | AlgoBeat | Product direction | Public product surface and organization namespace |
-| **[Alienway-fun](https://github.com/Alienway-fun)** / [alienway.fun](https://alienway.fun) | Alienway | Product direction | Public product site and public site repository |
-| **[kugguk.com](https://kugguk.com)** | KuggUK | Umbrella / navigation surface | Public portfolio, lineage and product navigation |
-| **[deeztik.com](https://deeztik.com)** | Deeztik | Product-group surface | Public product-group navigation |
-
-### Evidence snapshot
-
-These are examples of claims that are directly tied to public artifacts rather than portfolio prose:
-
-| Public project | Current result / capability | Verification path |
-| --- | --- | --- |
-| **Recamán** | `Theta_3` is falsified as a predictor of the true obstruction bit; phase-slip rate `0.001084`; harder leakage-reduced Dataset D mean AUC `0.7586` | README → saved JSON outputs → scripts |
-| **Collatz Lift** | 153 directly scanned zeros; perturbation-stable sector sign; negative quasi-periodicity result; lattice-guided continuation | README → `results.md` / reports → data and figures → scripts |
-| **Kesten-Goldie cross-check** | `7x+1` SSI is the cleanest positive empirical/theoretical match; ambiguous cases remain explicitly separated | README → `scan_results.csv` / plots → rerun command |
-| **Goldbach diagnostics** | Exact Goldbach counts are treated as trustworthy on tested ranges; calibrated heuristic still shows residual drift/misspecification | README + `RESULTS.md` → tests → outputs |
-| **Zyntalic** | Deterministic synthetic-language output exposed through runnable interfaces | README → package / CLI / API / launcher → tests |
-| **Lottery research** | Reproducible forecasting benchmarks exist, but current evidence does not yet justify a durable user-advantage claim | README → holdout commands → benchmark artifacts |
-
-> **Portfolio rule:** public claims should point to something another person can inspect, rerun, falsify, or use.
-
----
-
 ## Ecosystem
 
-The public structure is intentionally simple: an umbrella/navigation layer, a product layer, and a research lab.
+This profile is a window into a set of related products, research programs and experiments. Each keeps its own purpose while sharing ideas, tooling and infrastructure where that helps.
 
 ```text
 KuggUK · kugguk.com
@@ -72,169 +36,207 @@ KuggUK · kugguk.com
     └── Validatron · research verification tooling
 ```
 
-### Public surfaces
+### Public map
 
-| Layer | Surface | Role |
+| Surface | Relationship | Purpose |
 | --- | --- | --- |
-| **Umbrella** | [kugguk.com](https://kugguk.com) | Navigation across projects and companies |
-| **Product group** | [deeztik.com](https://deeztik.com) | Product portfolio and shared product foundation |
-| **Research lab** | [encapsulatorp.github.io](https://encapsulatorp.github.io/) | Live computational-mathematics experiments and research archive |
-| **Product** | [sha.chat](https://sha.chat) | Privacy-focused communications |
-| **Product** | [algobeat.ai](https://algobeat.ai) | Voice, sound and generative creative systems |
-| **Product** | [alienway.fun](https://alienway.fun) | Cinematic / world-building creative systems |
+| [kugguk.com](https://kugguk.com) | Umbrella / navigation | Public map across companies, products and experiments |
+| [deeztik.com](https://deeztik.com) | Product group | Product strategy and shared foundations |
+| [encapsulatorp.github.io](https://encapsulatorp.github.io/) | Research lab | Interactive computational-mathematics work and research archive |
+| [sha.chat](https://sha.chat) | Product | Privacy-focused communication and identity |
+| [algobeat.ai](https://algobeat.ai) | Product | Voice, sound and generative creative systems |
+| [alienway.fun](https://alienway.fun) | Product | Cinematic world-building and creator tools |
+
+### GitHub paths
+
+| GitHub home | What lives there |
+| --- | --- |
+| [kugguk2022](https://github.com/kugguk2022) | Personal/public portfolio index and selected tools |
+| [EncapsulatorP](https://github.com/EncapsulatorP) | Computational mathematics and research tooling |
+| [Pushasaco](https://github.com/Pushasaco) | sha.chat-related product work |
+| [GenZfy](https://github.com/GenZfy) | AlgoBeat-related work |
+| [Alienway-fun](https://github.com/Alienway-fun) | Alienway public surface |
+
+The links above are the public relationship map; individual repositories may be public or private depending on the work.
 
 ---
 
-## Flagship work
+## Selected work
 
-These are ranked primarily by **results or end-user utility**, not by repository size, CI/CD sophistication, or how many services they deploy.
+These projects represent the range of work best: research that produces concrete observations, and tools intended to become useful outside the experiment itself.
 
-| Project | Area | Why it is flagship work |
+| Project | Purpose | Current output |
 | --- | --- | --- |
-| **[Recamán](https://github.com/EncapsulatorP/recaman)** | Empirical mathematics | Falsifies the classic `Theta_3` wheel as a predictor of the true obstruction bit; finds near-perfect previous-state conditioning with rare phase slips; the harder leakage-reduced task reaches mean AUC `0.7586`. |
-| **[collatz_lift](https://github.com/EncapsulatorP/collatz_lift)** | Complex dynamics | Reports explicit numerical results: 153 scanned zeros, perturbation-stable sector behaviour, lattice-guided continuation, and a negative quasi-periodicity result instead of promoting a failed hypothesis. |
-| **[Zyntalic_idiom](https://github.com/kugguk2022/Zyntalic_idiom)** | Deterministic generative systems | A runnable synthetic-language toolkit with deterministic output, CLI, JSONL, web API, desktop launcher, tests, and optional projection training. |
-| **[collatz_kesten-goldie](https://github.com/EncapsulatorP/collatz_kesten-goldie)** | Stochastic / dynamical systems | Strong theory-vs-empirical cross-checks; the `7x+1` SSI case is the cleanest positive match while unstable cases are reported separately. |
-| **[goldbach_busy_collatz](https://github.com/EncapsulatorP/goldbach_busy_collatz)** | Goldbach diagnostics | Trustworthy exact-count pipeline with explicit model residuals and documented misspecification rather than theorem-like overclaims. |
-| **[lotteries-init-at-your-service](https://github.com/kugguk2022/lotteries-init-at-your-service)** | Forecasting research | Reproducible holdouts and fairer benchmarks. High end-user upside, but it remains research until larger tests demonstrate durable lift against relevant baselines. |
-
-The point of this table is not to declare every experiment successful. A falsified mechanism, a strong negative control, or a trustworthy diagnostic can be more valuable than a visually impressive weak result.
+| **[Recamán](https://github.com/EncapsulatorP/recaman)** | Understand obstruction dynamics in the Recamán sequence and locate the rare defects inside an almost alternating process. | Long-run process analysis, leakage-reduced prediction experiments, phase-slip measurements and 3D phase-space visualizations. |
+| **[collatz_lift](https://github.com/EncapsulatorP/collatz_lift)** | Explore a complex/log-plane lift of Collatz dynamics through zero structure, sector asymmetry and continuation. | Numerical zero sets, perturbation studies, lattice-guided continuation, figures and reproducible analysis scripts. |
+| **[Zyntalic_idiom](https://github.com/kugguk2022/Zyntalic_idiom)** | Make synthetic language deterministic enough to reuse across stories, subtitles, TTS, games and generated worlds. | Deterministic transformation engine, CLI, JSONL, web API, desktop launcher, tests and optional projection training. |
+| **[collatz_kesten-goldie](https://github.com/EncapsulatorP/collatz_kesten-goldie)** | Study when Collatz-like affine recursions behave like pinned, critical, intermittent or explosive stochastic regimes. | Theory/empirical cross-checks, tail diagnostics, dependence controls and comparative plots. |
+| **[goldbach_busy_collatz](https://github.com/EncapsulatorP/goldbach_busy_collatz)** | Measure exact Goldbach representation counts and understand where heuristic models still miss structure. | Exact-count pipeline, calibrated residual diagnostics, interactive visualizations and saved results. |
+| **[lotteries-init-at-your-service](https://github.com/kugguk2022/lotteries-init-at-your-service)** | Explore distributed and statistical approaches to lottery candidate generation and collective betting dynamics. | Historical-data pipelines, candidate generators, chronological evaluation, comparative benchmarks and experiment artifacts. |
 
 ---
 
-## Research map
+## Research highlights
 
-### 1. Computational mathematics
+### Recamán · obstruction dynamics
 
-Most mathematical work lives under **[EncapsulatorP](https://github.com/EncapsulatorP)** and is surfaced through **[encapsulatorp.github.io](https://encapsulatorp.github.io/)**.
+The Recamán work asks a deceptively simple question: **what actually controls an obstruction event?**
 
-Current themes:
+The current experiments show that the classic `Theta_3` wheel is not the useful predictor once the true obstruction process is tested directly. The stream is much better described as near-alternation with rare phase slips, which moves the research question toward locating and explaining those defects.
 
-- **Recamán obstruction dynamics** — temporal validation, phase slips, matched controls and 3D embeddings;
-- **Collatz dynamics** — generalized transforms, delay embeddings, complex/log-plane lifts and phase-space structure;
-- **Goldbach diagnostics** — exact representation counts, calibrated heuristics and residue-conditioned residuals;
-- **tetration / hyperoperations** — convergence, sign flipping, divergent regimes and related number-theory experiments;
-- **prime/composite signals** and other discrete-dynamics probes;
-- **Validatron** — tooling intended to keep empirical, conjectural, theorem and tooling claims clearly separated.
+A parallel value-side model studies obstruction patterns under forward validation and local controls. The purpose is not classification for its own sake; it is to discover which local structures remain informative when easy leakage and broad matching are removed.
 
-The research site exposes live experiments and separates empirical, conjectural, theorem-level and tooling claims. The goal is not to make open problems look solved; it is to make the strongest evidence easy to inspect.
+### Collatz · geometry, complex dynamics and stochastic regimes
 
-### 2. Deterministic generative systems
+Several repositories approach Collatz from different mathematical viewpoints rather than forcing them into one theory:
 
-**[Zyntalic_idiom](https://github.com/kugguk2022/Zyntalic_idiom)** explores deterministic synthetic-language generation rather than unconstrained one-shot text generation.
+- complex and log-plane lifts;
+- delay embeddings and computational geometry;
+- forced tetration and hyperoperation dynamics;
+- Kesten-Goldie style affine-recursion regimes;
+- phase-space and resonance structure.
 
-Current public implementation includes:
+`collatz_lift` currently exposes a numerical zero-set program with sector and perturbation studies. `collatz_kesten-goldie` explores how different Collatz-like recursions move between light-tail, critical, heavy-tail and explosive regimes.
 
-- seeded deterministic word generation;
-- anchor-prior lexicons;
-- explicit S-O-V-C transformation;
-- stable context tails;
-- CLI and JSONL output;
-- optional web API and desktop launcher;
-- tests and regression checks;
-- optional projection training.
+### Goldbach · exact counts before interpretation
 
-The end-user opportunity is **repeatability across media**: the same world, character, subtitle pipeline, TTS system or production can keep using the same synthetic-language rules instead of regenerating a different language every time.
+The Goldbach workspace starts from exact finite-range representation counts and then asks how well heuristic models explain their structure.
 
-### 3. Product systems
+The emphasis is on the difference between **what is counted exactly** and **what remains model-dependent**. Residuals, residue classes and interactive plots are used to guide the next refinement rather than as substitutes for a proof of the conjecture.
 
-The product layer is not presented as infrastructure for infrastructure's sake.
+### Tetration, sign flipping and hyperoperations
 
-- **sha.chat** — the intended user win is private communication with stronger control over identity, messaging, calls and agent actions.
-- **algobeat.ai** — the intended user win is turning voice / sound / direction into creative output worth keeping.
-- **alienway.fun** — the long-range thesis is simple: *Upload. Describe. Receive a world.*
-- **ZVM** — infrastructure matters when it enables safer execution of untrusted or agent-generated workloads.
-
-### 4. Applied forecasting
-
-**[lotteries-init-at-your-service](https://github.com/kugguk2022/lotteries-init-at-your-service)** is being held to a stricter standard than “interesting predictions.”
-
-It should only graduate to a user-win claim when a larger, fair holdout demonstrates durable advantage over relevant baselines. Until then, the benchmark itself is the result.
+A separate line of work studies iteration, tetration, sign-alternating towers and related dynamical behaviour. These experiments are increasingly surfaced through the EncapsulatorP website so the mathematics can be explored interactively instead of only through repository files.
 
 ---
 
-## How I try to build research repositories
+## Products
 
-The standard I am moving toward across active projects is:
+### sha.chat
+
+[sha.chat](https://sha.chat) is about communication that gives people stronger control over identity, messages, calls and autonomous actions.
+
+The product direction combines private messaging, calling, agent workflows and identity without making a phone number the centre of the user model. The aim is a communication surface that feels ordinary to use while treating privacy and control as product behaviour rather than an advanced setting.
+
+### Zyntalic
+
+[Zyntalic](https://github.com/kugguk2022/Zyntalic_idiom) turns synthetic language into a repeatable system.
+
+The practical idea is simple: a fictional world should not invent a different language every time a scene, subtitle or voice line is regenerated. Deterministic transforms and stable lexical anchors make language reusable across media pipelines.
+
+```text
+text / transcript
+      ↓
+deterministic language transform
+      ↓
+subtitles · TTS · voice · games · generated worlds
+```
+
+### AlgoBeat
+
+[algobeat.ai](https://algobeat.ai) explores **voice as an instrument and the model as a producer**.
+
+The product direction is an accessible creative loop in which recordings, rhythm, voice and direction can become music and audiovisual output without requiring the user to operate the underlying model stack.
+
+### Alienway
+
+[alienway.fun](https://alienway.fun) explores a creator workflow around a compact idea:
+
+**Upload. Describe. Receive a world.**
+
+The work connects source footage, visual references and language with generated environments while trying to preserve continuity between people, places, objects, atmosphere and creator intent.
+
+### Lottery research
+
+[lotteries-init-at-your-service](https://github.com/kugguk2022/lotteries-init-at-your-service) explores lottery systems as a statistical and distributed-systems problem: candidate generation, historical structure, crowd coordination and comparative evaluation.
+
+The purpose is to investigate whether collective or structured approaches can change the practical betting problem for users, while keeping experiments reproducible enough to compare strategies over time.
+
+---
+
+## Working method
+
+Different projects use different mathematics and technologies, but the research loop is consistent:
 
 ```text
 question
   ↓
-hypothesis
-  ↓
-baseline / null
+model / hypothesis
   ↓
 implementation
   ↓
 experiment
   ↓
-measured result
+result
   ↓
-negative controls / falsification
+comparison / counterexample
   ↓
-artifact + reproduction command
-  ↓
-what remains unresolved
+next question
 ```
 
-For product work, the corresponding test is shorter:
+For products, the loop is equally concrete:
 
 ```text
-input from a real user
+real user need
   ↓
-working product
+working interaction
   ↓
-useful output / capability
+useful output or capability
   ↓
-repeatable user win
+iteration from real use
 ```
 
-CI, tests, deployment and documentation matter because they keep that win dependable. **They are not the win themselves.**
+Tests, CI, deployment and documentation support that work because they make results and products easier to reproduce and maintain; they are part of the engineering, not the identity of the portfolio.
 
 ---
 
-## Public evidence vs. private engineering
+## Public and private work
 
-Some production and collaborative engineering remains private. Private code is not treated as publicly verifiable evidence.
+Some production, mobile, product and collaborative repositories remain private. Public repositories and websites expose the parts intended for inspection, use or collaboration; private repositories contain work that is still internal, operational or not ready for public release.
 
-Where useful, the public side should expose non-sensitive proof instead: product behaviour, architecture notes, test strategy, benchmark results, releases, public interfaces, technical reports, or sanitized implementation evidence.
+The public profile therefore links directly to research outputs, product surfaces and repositories that can be explored today without pretending that the entire working environment is public.
 
 ---
 
-## Current priorities
+## Current directions
 
-- turn the strongest research outputs into interactions people can actually use;
-- make Recamán, Collatz and Goldbach results easier to reproduce and inspect;
-- push Zyntalic from toolkit toward a creator-facing deterministic language product;
-- ship product capabilities where the user benefit is immediately visible;
-- keep forecasting claims below product status until fair benchmarks show real lift;
-- consolidate related experiments without flattening genuinely different research questions.
+- make the strongest mathematical experiments easier to explore interactively;
+- connect Recamán phase-slip observations with more local predictive structure;
+- continue the Collatz complex-dynamics and stochastic-regime programs as distinct but related lines of inquiry;
+- turn Zyntalic into a practical language layer for creator workflows;
+- move sha.chat toward an ordinary-feeling private communications product;
+- build AlgoBeat and Alienway around short creative loops that produce something worth keeping;
+- continue lottery experiments around collective/statistical advantage and distributed coordination;
+- keep the public ecosystem map clear as products and research programs evolve.
 
 ---
 
 ## Collaboration
 
-Useful collaboration is especially welcome around:
+Interesting conversations usually begin around a concrete question, experiment, product interaction or unexpected result.
+
+Areas I am especially interested in:
 
 - computational number theory and dynamical systems;
-- reproducible experimental mathematics;
+- experimental mathematics and visualization;
 - deterministic generative systems;
-- privacy-first communication products;
-- creator tools and voice / sound AI;
-- benchmark design, falsification and honest evaluation.
+- privacy-focused communication;
+- creative AI, voice and sound;
+- statistical systems and collective inference;
+- turning unusual research ideas into usable products.
 
-For research discussion, issues and pull requests on the relevant repository are preferred because they keep the reasoning attached to the experiment.
+For technical discussion, issues and pull requests on the relevant repository are usually the best place to keep the reasoning attached to the work.
 
 ---
 
 ### Elsewhere
 
 - **KuggUK:** [kugguk.com](https://kugguk.com)
-- **Product group:** [deeztik.com](https://deeztik.com)
+- **Products:** [deeztik.com](https://deeztik.com)
 - **Research:** [encapsulatorp.github.io](https://encapsulatorp.github.io/) · [github.com/EncapsulatorP](https://github.com/EncapsulatorP)
 - **Private communication:** [sha.chat](https://sha.chat)
-- **Voice + sound AI:** [algobeat.ai](https://algobeat.ai)
+- **Voice + sound:** [algobeat.ai](https://algobeat.ai)
 - **Creative worlds:** [alienway.fun](https://alienway.fun)
 - **GitHub:** [github.com/kugguk2022](https://github.com/kugguk2022)
 
-<sub>Build the evidence. Turn the strongest evidence into something useful.</sub>
+<sub>Independent by design. Research, products and experiments — connected without becoming identical.</sub>
