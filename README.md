@@ -14,6 +14,42 @@ Algorithms · dynamical systems · deterministic languages · applied forecastin
 
 ---
 
+## Public portfolio map
+
+This profile spans several GitHub namespaces and public product surfaces. The table below is a **public relationship and evidence map**: it shows where a project lives, how it relates to this portfolio, and what an external reviewer can actually inspect. It is not intended as a substitute for legal ownership records.
+
+| Namespace / surface | Project | Relationship here | Public evidence you can inspect |
+| --- | --- | --- | --- |
+| **[kugguk2022](https://github.com/kugguk2022)** | [kugguk2022](https://github.com/kugguk2022/kugguk2022) | Profile / portfolio index | This README and linked public work |
+| **[EncapsulatorP](https://github.com/EncapsulatorP)** | [recaman](https://github.com/EncapsulatorP/recaman) | Research program | Forward validation, matched controls, leakage-reduced experiments, saved outputs, 3D visualizations |
+| **[EncapsulatorP](https://github.com/EncapsulatorP)** | [collatz_lift](https://github.com/EncapsulatorP/collatz_lift) | Research program | Numerical results, CSV data, reports, figures, rerunnable scripts |
+| **[EncapsulatorP](https://github.com/EncapsulatorP)** | [collatz_kesten-goldie](https://github.com/EncapsulatorP/collatz_kesten-goldie) | Research program | Theory/empirical cross-checks, plots, CSV/TXT results, reproduction command |
+| **[EncapsulatorP](https://github.com/EncapsulatorP)** | [goldbach_busy_collatz](https://github.com/EncapsulatorP/goldbach_busy_collatz) | Research program | Exact-count pipeline, tests, CI workflow, RESULTS.md, data dictionary, generated artifacts |
+| **[kugguk2022](https://github.com/kugguk2022)** | [Zyntalic_idiom](https://github.com/kugguk2022/Zyntalic_idiom) | Public generative-system implementation | Deterministic engine, CLI, JSONL, API/launcher paths, tests |
+| **[kugguk2022](https://github.com/kugguk2022)** | [lotteries-init-at-your-service](https://github.com/kugguk2022/lotteries-init-at-your-service) | Forecasting research | Forward-only evaluation, holdouts, benchmarks, tests, saved artifacts |
+| **[Pushasaco](https://github.com/Pushasaco)** / [sha.chat](https://sha.chat) | sha.chat | Product direction | Public product site; implementation evidence is selectively public/private |
+| **[GenZfy](https://github.com/GenZfy)** / [algobeat.ai](https://algobeat.ai) | AlgoBeat | Product direction | Public product surface and organization namespace |
+| **[Alienway-fun](https://github.com/Alienway-fun)** / [alienway.fun](https://alienway.fun) | Alienway | Product direction | Public product site and public site repository |
+| **[kugguk.com](https://kugguk.com)** | KuggUK | Umbrella / navigation surface | Public portfolio, lineage and product navigation |
+| **[deeztik.com](https://deeztik.com)** | Deeztik | Product-group surface | Public product-group navigation |
+
+### Evidence snapshot
+
+These are examples of claims that are directly tied to public artifacts rather than portfolio prose:
+
+| Public project | Current result / capability | Verification path |
+| --- | --- | --- |
+| **Recamán** | `Theta_3` is falsified as a predictor of the true obstruction bit; phase-slip rate `0.001084`; harder leakage-reduced Dataset D mean AUC `0.7586` | README → saved JSON outputs → scripts |
+| **Collatz Lift** | 153 directly scanned zeros; perturbation-stable sector sign; negative quasi-periodicity result; lattice-guided continuation | README → `results.md` / reports → data and figures → scripts |
+| **Kesten-Goldie cross-check** | `7x+1` SSI is the cleanest positive empirical/theoretical match; ambiguous cases remain explicitly separated | README → `scan_results.csv` / plots → rerun command |
+| **Goldbach diagnostics** | Exact Goldbach counts are treated as trustworthy on tested ranges; calibrated heuristic still shows residual drift/misspecification | README + `RESULTS.md` → tests → outputs |
+| **Zyntalic** | Deterministic synthetic-language output exposed through runnable interfaces | README → package / CLI / API / launcher → tests |
+| **Lottery research** | Reproducible forecasting benchmarks exist, but current evidence does not yet justify a durable user-advantage claim | README → holdout commands → benchmark artifacts |
+
+> **Portfolio rule:** public claims should point to something another person can inspect, rerun, falsify, or use.
+
+---
+
 ## Ecosystem
 
 The public structure is intentionally simple: an umbrella/navigation layer, a product layer, and a research lab.
@@ -81,7 +117,7 @@ Current themes:
 - **prime/composite signals** and other discrete-dynamics probes;
 - **Validatron** — tooling intended to keep empirical, conjectural, theorem and tooling claims clearly separated.
 
-The research site currently exposes six live experiments and explicitly labels what is empirical, conjectural, theorem-level, or tooling. The goal is not to make open problems look solved; it is to make the strongest evidence easy to inspect.
+The research site exposes live experiments and separates empirical, conjectural, theorem-level and tooling claims. The goal is not to make open problems look solved; it is to make the strongest evidence easy to inspect.
 
 ### 2. Deterministic generative systems
 
