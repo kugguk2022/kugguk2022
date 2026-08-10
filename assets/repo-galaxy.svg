@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Repo Galaxy — kugguk2022 public organization map</title>
+  <desc id="desc">An animated neon constellation of public repositories and redacted private-only organization surfaces.</desc>
+  <defs>
+    <radialGradient id="space" cx="50%" cy="43%" r="74%">
+      <stop offset="0" stop-color="#10263d"/>
+      <stop offset="0.52" stop-color="#07101e"/>
+      <stop offset="1" stop-color="#03050a"/>
+    </radialGradient>
+    <radialGradient id="rootGlow">
+      <stop offset="0" stop-color="#ffb457" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#ffb457" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M50 0H0V50" fill="none" stroke="#22e0ff" stroke-opacity=".055"/>
+    </pattern>
+    <filter id="cyanGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="amberGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+      .beam{fill:none;stroke-width:2;stroke-dasharray:1;stroke-dashoffset:1;opacity:.52}
+      .node-ring{fill:#07101a;stroke-width:2.5}
+      .node-name{fill:#dceeff;font-size:17px;font-weight:700;text-anchor:middle;letter-spacing:.4px}
+      .chip{font-size:13px;text-anchor:middle}
+      .redacted{fill:#ff6b8f;letter-spacing:2px}
+      .panel-name{fill:#e6f4ff;font-size:16px;font-weight:700}
+      .panel-state{font-size:11px;text-anchor:end;letter-spacing:1px}
+    </style>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#space)"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+  <circle cx="600" cy="337" r="275" fill="none" stroke="#22e0ff" stroke-opacity=".10" stroke-dasharray="2 16">
+    <animateTransform attributeName="transform" type="rotate" from="0 600 337" to="360 600 337" dur="80s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="600" cy="337" r="190" fill="none" stroke="#ffb457" stroke-opacity=".14" stroke-dasharray="4 18">
+    <animateTransform attributeName="transform" type="rotate" from="360 600 337" to="0 600 337" dur="55s" repeatCount="indefinite"/>
+  </circle>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.04;.94;1" dur="18s" repeatCount="indefinite"/>
+    <text x="34" y="44" fill="#ffb457" font-size="14" letter-spacing="3">REPO GALAXY // PUBLIC MAP</text>
+    <text x="34" y="68" fill="#7596b5" font-size="11" letter-spacing="1.5">PRIVATE-ONLY SURFACES REMAIN REDACTED</text>
+  </g>
+
+  <!-- constellation beams -->
+  <g filter="url(#cyanGlow)">
+    <line class="beam" pathLength="1" x1="600" y1="337" x2="600" y2="102" stroke="#22e0ff"><animate attributeName="stroke-dashoffset" values="1;1;0;0;1" keyTimes="0;.11;.16;.94;1" dur="18s" repeatCount="indefinite"/></line>
+    <line class="beam" pathLength="1" x1="600" y1="337" x2="860" y2="190" stroke="#4d8dff"><animate attributeName="stroke-dashoffset" values="1;1;0;0;1" keyTimes="0;.14;.19;.94;1" dur="18s" repeatCount="indefinite"/></line>
+    <line class="beam" pathLength="1" x1="600" y1="337" x2="860" y2="485" stroke="#ff3df0"><animate attributeName="stroke-dashoffset" values="1;1;0;0;1" keyTimes="0;.17;.22;.94;1" dur="18s" repeatCount="indefinite"/></line>
+    <line class="beam" pathLength="1" x1="600" y1="337" x2="600" y2="570" stroke="#ffb457"><animate attributeName="stroke-dashoffset" values="1;1;0;0;1" keyTimes="0;.20;.25;.94;1" dur="18s" repeatCount="indefinite"/></line>
+    <line class="beam" pathLength="1" x1="600" y1="337" x2="340" y2="485" stroke="#43ff9e"><animate attributeName="stroke-dashoffset" values="1;1;0;0;1" keyTimes="0;.23;.28;.94;1" dur="18s" repeatCount="indefinite"/></line>
+    <line class="beam" pathLength="1" x1="600" y1="337" x2="340" y2="190" stroke="#22e0ff"><animate attributeName="stroke-dashoffset" values="1;1;0;0;1" keyTimes="0;.26;.31;.94;1" dur="18s" repeatCount="indefinite"/></line>
+  </g>
+
+  <!-- root -->
+  <g transform="translate(600 337)" opacity="0">
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.06;.94;1" dur="18s" repeatCount="indefinite"/>
+    <circle r="112" fill="url(#rootGlow)"><animate attributeName="r" values="85;116;103;112;85" keyTimes="0;.08;.18;.82;1" dur="18s" repeatCount="indefinite"/></circle>
+    <circle r="67" fill="#07101a" stroke="#ffb457" stroke-width="3" filter="url(#amberGlow)"/>
+    <text y="10" text-anchor="middle" fill="#ffb457" font-size="34" font-weight="800">K²</text>
+    <rect x="-30" y="48" width="60" height="18" rx="2" fill="#050810" stroke="#ffb457" stroke-opacity=".75"/>
+    <text y="61" text-anchor="middle" fill="#ffb457" font-size="10" font-weight="700" letter-spacing="3">ROOT</text>
+  </g>
+
+  <!-- private-only node: Zakana -->
+  <g transform="translate(600 102)" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.13;.18;.94;1" dur="18s" repeatCount="indefinite"/>
+    <circle class="node-ring" r="34" stroke="#22e0ff"/>
+    <path d="M-9 0h18v15h-18zM-6 0v-7a6 6 0 0112 0v7" fill="none" stroke="#22e0ff" stroke-width="2.5"/>
+    <text class="node-name redacted" y="58">[ REDACTED ]</text>
+  </g>
+
+  <!-- public node: Alienway -->
+  <g transform="translate(860 190)" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.16;.21;.94;1" dur="18s" repeatCount="indefinite"/>
+    <circle class="node-ring" r="34" stroke="#4d8dff"/>
+    <text y="8" text-anchor="middle" fill="#4d8dff" font-size="20" font-weight="800">AW</text>
+    <text class="node-name" y="58">Alienway-fun</text>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.43;.48;.94;1" dur="18s" repeatCount="indefinite"/><rect x="-66" y="68" width="132" height="24" rx="3" fill="#060912" stroke="#4d8dff" stroke-opacity=".65"/><text class="chip" y="85" fill="#4d8dff">alienway.fun ↗</text></g>
+  </g>
+
+  <!-- public node: Pushasaco -->
+  <g transform="translate(860 485)" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.19;.24;.94;1" dur="18s" repeatCount="indefinite"/>
+    <circle class="node-ring" r="34" stroke="#ff3df0"/>
+    <text y="8" text-anchor="middle" fill="#ff3df0" font-size="20" font-weight="800">SHA</text>
+    <text class="node-name" y="58">Pushasaco</text>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.47;.52;.94;1" dur="18s" repeatCount="indefinite"/><rect x="-52" y="68" width="104" height="24" rx="3" fill="#060912" stroke="#ff3df0" stroke-opacity=".65"/><text class="chip" y="85" fill="#ff3df0">sha.chat ↗</text></g>
+  </g>
+
+  <!-- public node: EncapsulatorP -->
+  <g transform="translate(600 570)" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.22;.27;.94;1" dur="18s" repeatCount="indefinite"/>
+    <circle class="node-ring" r="34" stroke="#ffb457"/>
+    <text y="8" text-anchor="middle" fill="#ffb457" font-size="19" font-weight="800">∑</text>
+    <text class="node-name" y="58">EncapsulatorP</text>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.53;.58;.94;1" dur="18s" repeatCount="indefinite"/><rect x="-48" y="68" width="96" height="24" rx="3" fill="#060912" stroke="#ffb457" stroke-opacity=".65"/><text class="chip" y="85" fill="#ffb457">▸ recaman</text></g>
+  </g>
+
+  <!-- private-only nodes -->
+  <g transform="translate(340 485)" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.25;.30;.94;1" dur="18s" repeatCount="indefinite"/>
+    <circle class="node-ring" r="34" stroke="#43ff9e"/><path d="M-9 0h18v15h-18zM-6 0v-7a6 6 0 0112 0v7" fill="none" stroke="#43ff9e" stroke-width="2.5"/><text class="node-name redacted" y="58">[ REDACTED ]</text>
+  </g>
+  <g transform="translate(340 190)" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.28;.33;.94;1" dur="18s" repeatCount="indefinite"/>
+    <circle class="node-ring" r="34" stroke="#22e0ff"/><path d="M-9 0h18v15h-18zM-6 0v-7a6 6 0 0112 0v7" fill="none" stroke="#22e0ff" stroke-width="2.5"/><text class="node-name redacted" y="58">[ REDACTED ]</text>
+  </g>
+
+  <!-- terminal captions -->
+  <g fill="#ffb457" font-size="22" filter="url(#amberGlow)">
+    <text x="34" y="635" opacity="0">&gt; initializing trace…<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.02;.13;.18;1" dur="18s" repeatCount="indefinite"/></text>
+    <text x="34" y="635" opacity="0">&gt; mapping 6 organization nodes<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.16;.20;.39;.43;1" dur="18s" repeatCount="indefinite"/></text>
+    <text x="34" y="635" opacity="0">&gt; products in orbit<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.41;.45;.61;.65;1" dur="18s" repeatCount="indefinite"/></text>
+    <text x="34" y="635" opacity="0">&gt; public index · private surfaces redacted<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.68;.72;.94;1" dur="18s" repeatCount="indefinite"/></text>
+  </g>
+
+  <!-- final index panel -->
+  <g transform="translate(790 82)" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.69;.74;.94;1" dur="18s" repeatCount="indefinite"/>
+    <rect width="375" height="475" rx="6" fill="#050913" fill-opacity=".96" stroke="#ffb457" stroke-opacity=".52"/>
+    <text x="25" y="47" fill="#fff" font-size="25" font-weight="800" letter-spacing="2">ORGANIZATION INDEX</text>
+    <text x="25" y="73" fill="#ffb457" font-size="13">kugguk2022 · 3 public · 3 redacted</text>
+    <g transform="translate(25 110)">
+      <circle cx="15" cy="0" r="12" fill="#07101a" stroke="#ff6b8f"/><text class="panel-name redacted" x="40" y="6">[ REDACTED ]</text><text class="panel-state redacted" x="325" y="5">REDACTED</text>
+      <circle cx="15" cy="58" r="12" fill="#07101a" stroke="#4d8dff"/><text class="panel-name" x="40" y="64">Alienway-fun</text><text class="panel-state" x="325" y="63" fill="#ffb457">alienway.fun</text>
+      <circle cx="15" cy="116" r="12" fill="#07101a" stroke="#ff3df0"/><text class="panel-name" x="40" y="122">Pushasaco</text><text class="panel-state" x="325" y="121" fill="#ffb457">sha.chat</text>
+      <circle cx="15" cy="174" r="12" fill="#07101a" stroke="#ffb457"/><text class="panel-name" x="40" y="180">EncapsulatorP</text><text class="panel-state" x="325" y="179" fill="#5eead4">PUBLIC</text>
+      <circle cx="15" cy="232" r="12" fill="#07101a" stroke="#ff6b8f"/><text class="panel-name redacted" x="40" y="238">[ REDACTED ]</text><text class="panel-state redacted" x="325" y="237">REDACTED</text>
+      <circle cx="15" cy="290" r="12" fill="#07101a" stroke="#ff6b8f"/><text class="panel-name redacted" x="40" y="296">[ REDACTED ]</text><text class="panel-state redacted" x="325" y="295">REDACTED</text>
+    </g>
+    <line x1="25" y1="422" x2="350" y2="422" stroke="#fff" stroke-opacity=".12"/>
+    <text x="25" y="449" fill="#8da6bf" font-size="12">selected public experiments · interactive source</text>
+  </g>
+
+  <rect width="1200" height="675" fill="none" stroke="#22e0ff" stroke-opacity=".16"/>
+</svg>
