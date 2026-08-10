@@ -58,7 +58,7 @@ KuggUK · kugguk.com
 | [Alienway-fun](https://github.com/Alienway-fun) | Alienway public surface |
 
 <p align="center">
-  <img src="./assets/repo-galaxy.svg" width="100%" alt="Animated Repo Galaxy showing the public kugguk2022 ecosystem with private-only organization surfaces redacted">
+  <img src="./assets/zebracorn.svg" width="100%" alt="Animated Repo Galaxy showing the public kugguk2022 ecosystem with private-only organization surfaces redacted">
 </p>
 
 <p align="center"><sub>Repo Galaxy · public products and research in orbit · private-only surfaces redacted</sub></p>
