@@ -24,7 +24,7 @@
     </filter>
     <style>
       text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
-      .beam{fill:none;stroke-width:2;stroke-dasharray:1;stroke-dashoffset:1;opacity:.52}
+      .beam{fill:none;stroke-width:2;stroke-dasharray:1;stroke-dashoffset:0;opacity:.52}
       .node-ring{fill:#07101a;stroke-width:2.5}
       .node-name{fill:#dceeff;font-size:17px;font-weight:700;text-anchor:middle;letter-spacing:.4px}
       .chip{font-size:13px;text-anchor:middle}
@@ -43,7 +43,7 @@
     <animateTransform attributeName="transform" type="rotate" from="360 600 337" to="0 600 337" dur="55s" repeatCount="indefinite"/>
   </circle>
 
-  <g opacity="0">
+  <g opacity="1">
     <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.04;.94;1" dur="18s" repeatCount="indefinite"/>
     <text x="34" y="44" fill="#ffb457" font-size="14" letter-spacing="3">REPO GALAXY // PUBLIC MAP</text>
     <text x="34" y="68" fill="#7596b5" font-size="11" letter-spacing="1.5">PRIVATE-ONLY SURFACES REMAIN REDACTED</text>
@@ -60,7 +60,7 @@
   </g>
 
   <!-- root -->
-  <g transform="translate(600 337)" opacity="0">
+  <g transform="translate(600 337)" opacity="1">
     <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.06;.94;1" dur="18s" repeatCount="indefinite"/>
     <circle r="112" fill="url(#rootGlow)"><animate attributeName="r" values="85;116;103;112;85" keyTimes="0;.08;.18;.82;1" dur="18s" repeatCount="indefinite"/></circle>
     <circle r="67" fill="#07101a" stroke="#ffb457" stroke-width="3" filter="url(#amberGlow)"/>
@@ -70,7 +70,7 @@
   </g>
 
   <!-- private-only node: Zakana -->
-  <g transform="translate(600 102)" opacity="0">
+  <g transform="translate(600 102)" opacity="1">
     <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.13;.18;.94;1" dur="18s" repeatCount="indefinite"/>
     <circle class="node-ring" r="34" stroke="#22e0ff"/>
     <path d="M-9 0h18v15h-18zM-6 0v-7a6 6 0 0112 0v7" fill="none" stroke="#22e0ff" stroke-width="2.5"/>
@@ -78,7 +78,7 @@
   </g>
 
   <!-- public node: Alienway -->
-  <g transform="translate(860 190)" opacity="0">
+  <g transform="translate(860 190)" opacity="1">
     <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.16;.21;.94;1" dur="18s" repeatCount="indefinite"/>
     <circle class="node-ring" r="34" stroke="#4d8dff"/>
     <text y="8" text-anchor="middle" fill="#4d8dff" font-size="20" font-weight="800">AW</text>
@@ -87,7 +87,7 @@
   </g>
 
   <!-- public node: Pushasaco -->
-  <g transform="translate(860 485)" opacity="0">
+  <g transform="translate(860 485)" opacity="1">
     <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.19;.24;.94;1" dur="18s" repeatCount="indefinite"/>
     <circle class="node-ring" r="34" stroke="#ff3df0"/>
     <text y="8" text-anchor="middle" fill="#ff3df0" font-size="20" font-weight="800">SHA</text>
@@ -96,7 +96,7 @@
   </g>
 
   <!-- public node: EncapsulatorP -->
-  <g transform="translate(600 570)" opacity="0">
+  <g transform="translate(600 570)" opacity="1">
     <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.22;.27;.94;1" dur="18s" repeatCount="indefinite"/>
     <circle class="node-ring" r="34" stroke="#ffb457"/>
     <text y="8" text-anchor="middle" fill="#ffb457" font-size="19" font-weight="800">∑</text>
@@ -105,11 +105,11 @@
   </g>
 
   <!-- private-only nodes -->
-  <g transform="translate(340 485)" opacity="0">
+  <g transform="translate(340 485)" opacity="1">
     <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.25;.30;.94;1" dur="18s" repeatCount="indefinite"/>
     <circle class="node-ring" r="34" stroke="#43ff9e"/><path d="M-9 0h18v15h-18zM-6 0v-7a6 6 0 0112 0v7" fill="none" stroke="#43ff9e" stroke-width="2.5"/><text class="node-name redacted" y="58">[ REDACTED ]</text>
   </g>
-  <g transform="translate(340 190)" opacity="0">
+  <g transform="translate(340 190)" opacity="1">
     <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.28;.33;.94;1" dur="18s" repeatCount="indefinite"/>
     <circle class="node-ring" r="34" stroke="#22e0ff"/><path d="M-9 0h18v15h-18zM-6 0v-7a6 6 0 0112 0v7" fill="none" stroke="#22e0ff" stroke-width="2.5"/><text class="node-name redacted" y="58">[ REDACTED ]</text>
   </g>
@@ -123,7 +123,7 @@
   </g>
 
   <!-- final index panel -->
-  <g transform="translate(790 82)" opacity="0">
+  <g transform="translate(790 82)" opacity="1">
     <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.69;.74;.94;1" dur="18s" repeatCount="indefinite"/>
     <rect width="375" height="475" rx="6" fill="#050913" fill-opacity=".96" stroke="#ffb457" stroke-opacity=".52"/>
     <text x="25" y="47" fill="#fff" font-size="25" font-weight="800" letter-spacing="2">ORGANIZATION INDEX</text>
