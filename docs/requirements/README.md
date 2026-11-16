@@ -4,7 +4,7 @@ Owner-requested requirements baseline: **16 November 2026**. This public page is
 
 | Project wiki | Responsibility |
 | --- | --- |
-| [sha.chat](https://github.com/SHA-CHAT/sha-chat-app/blob/codex/requirements-wiki-v1-20261116/docs/wiki/requirements/README.md) | Communication and client experience |
+| [sha.chat](https://github.com/SHA-CHAT/sha-chat-app/blob/codex/requirements-wiki-v1-dev-20261116/docs/wiki/requirements/README.md) | Communication and client experience |
 | [ZoZ](https://github.com/SHA-CHAT/zOS/blob/codex/requirements-wiki-v1-20261116/docs/wiki/requirements/README.md) | Corporate browser workspace and connected/Field Mode workflows |
 | [ZNet](https://github.com/SHA-CHAT/Znet/blob/codex/requirements-wiki-v1-20261116/docs/wiki/requirements/README.md) | Transport for sealed payloads |
 | [ZvW](https://github.com/Z-v-W/Z-v-W-main/blob/codex/requirements-wiki-v1-20261116/docs/wiki/requirements/README.md) | Professional value transitions and service attestation |
