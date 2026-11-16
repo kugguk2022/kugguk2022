@@ -248,3 +248,7 @@ For technical discussion, issues and pull requests on the relevant repository ar
 - **GitHub:** [github.com/kugguk2022](https://github.com/kugguk2022)
 
 <sub>Independent by design. Research, products and experiments — connected without becoming identical.</sub>
+
+## Integrated product requirements
+
+The sha.chat, ZoZ, ZNet and ZvW requirements are tracked in the [versioned project wiki index](docs/requirements/README.md). Definitions and accepted evidence remain in each project repository; a listed feature does not establish release readiness.
